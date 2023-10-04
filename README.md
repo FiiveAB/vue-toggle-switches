@@ -1,4 +1,4 @@
-# Vue Toggle Switch
+# Vue Toggle Switches
 
 A Vue.js component for simple switches with theme support for [bulma](http://bulma.io), [bootstrap](http://getbootstrap.com/) and custom themes.
 
@@ -7,13 +7,13 @@ This is a fork from [vue-switches], which is no longer maintained.
 ## Installation
 
 ```bash
-npm install vue-toggle-switch --save
+npm install vue-toggle-switches --save
 ```
 
 ## Basic Usage
 
 ```javascript
-import Switches from 'vue-toggle-switch';
+import Switches from 'vue-toggle-switches';
 
 new Vue({
 
