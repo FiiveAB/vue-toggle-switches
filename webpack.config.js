@@ -1,7 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const { VueLoaderPlugin } = require('vue-loader');
 const VueTemplateCompiler = require('vue-template-compiler');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   entry: './src/main.js',
@@ -17,7 +18,7 @@ module.exports = {
     rules: [
       {
         test: /\.scss$/,
-        loaders: ['style-loader', 'css-loader', 'sass-loader'],
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
         test: /\.vue$/,
@@ -35,7 +36,7 @@ module.exports = {
       compiler: VueTemplateCompiler
     })
   ],
-  devtool: '#cheap-module-eval-source-map'
+  devtool: 'eval-cheap-module-source-map'
 };
 
 if (process.env.NODE_ENV === 'production') {
@@ -46,12 +47,8 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      },
-      sourceMap: false
-    }),
-    new webpack.optimize.OccurrenceOrderPlugin()
+    new TerserPlugin({
+      parallel: true
+    })
   ])
 }

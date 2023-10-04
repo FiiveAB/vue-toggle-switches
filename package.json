@@ -20,23 +20,28 @@
   "license": "MIT",
   "homepage": "https://github.com/Klarity-Software/vue-switches#readme",
   "dependencies": {
-    "vue": "^2.2.6"
+    "vue": "^2.6.14"
   },
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-eslint": "^7.1.1",
-    "babel-loader": "^6.4.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-3": "^6.24.1",
-    "cross-env": "^4.0.0",
-    "css-loader": "^1.0.0",
-    "node-sass": "^4.9.3",
-    "sass-loader": "^7.1.0",
+    "@babel/core": "^7.0.0",
+    "@babel/eslint-parser": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^9.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^10.4.1",
     "style-loader": "^0.22.1",
-    "vue-loader": "^15.4.0",
-    "vue-template-compiler": "^2.5.17",
-    "webpack": "^4.0.0"
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.1.4"
   },
   "browserslist": [
     "> 1%",
