@@ -1,4 +1,4 @@
-# Vue Switches
+# Vue Toggle Switch
 
 A Vue.js component for simple switches with theme support for [bulma](http://bulma.io), [bootstrap](http://getbootstrap.com/) and custom themes.
 
