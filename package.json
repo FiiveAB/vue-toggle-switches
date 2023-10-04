@@ -1,6 +1,6 @@
 {
   "name": "vue-toggle-switches",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A toggle switch component for Vue.js with theme support.",
   "main": "src/switches.vue",
   "scripts": {
