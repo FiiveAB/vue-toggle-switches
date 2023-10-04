@@ -2,7 +2,9 @@
 
 A Vue.js component for simple switches with theme support for [bulma](http://bulma.io), [bootstrap](http://getbootstrap.com/) and custom themes.
 
-This is a fork from [vue-switches], which is no longer maintained.
+This is originally a fork from [vue-switches](https://www.npmjs.com/package/vue-switches), which is no longer maintained.
+
+In this fork, We've added webpack to build the component. This allows us to offer better compatibility across different environments, optimized code performance, and more granular control over the build process. 
 
 ## Installation
 
@@ -75,3 +77,15 @@ new Vue({
     </tbody>
 
 </table>
+
+## Acknowledgements
+
+A huge shoutout to the original vue-switches project. We've forked it and made some changes to suit our needs.
+
+## License
+
+**MIT**
+
+We hope the Vue community finds vue-toggle-switches beneficial. Your feedback and contributions are always welcome!
+
+A project by [Klarity](https://www.klarity.se).
