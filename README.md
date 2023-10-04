@@ -2,6 +2,8 @@
 
 A Vue.js component for simple switches with theme support for [bulma](http://bulma.io), [bootstrap](http://getbootstrap.com/) and custom themes.
 
+This is a fork from [vue-switches], which is no longer maintained.
+
 ## Installation
 
 ```bash
