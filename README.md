@@ -5,13 +5,13 @@ A Vue.js component for simple switches with theme support for [bulma](http://bul
 ## Installation
 
 ```bash
-npm install vue-switches --save
+npm install vue-toggle-switch --save
 ```
 
 ## Basic Usage
 
 ```javascript
-import Switches from 'vue-switches';
+import Switches from 'vue-toggle-switch';
 
 new Vue({
 

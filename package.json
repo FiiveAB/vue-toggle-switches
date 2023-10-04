@@ -18,7 +18,7 @@
   ],
   "author": "Klarity Software",
   "license": "MIT",
-  "homepage": "https://github.com/Klarity-Software/vue-switches#readme",
+  "homepage": "https://github.com/Klarity-Software/vue-toggle-switch#readme",
   "dependencies": {
     "vue": "^2.6.14"
   },
