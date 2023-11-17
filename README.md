@@ -88,4 +88,4 @@ A huge shoutout to the original vue-switches project. We've forked it and made s
 
 We hope the Vue community finds vue-toggle-switches beneficial. Your feedback and contributions are always welcome!
 
-A project by [Klarity](https://www.klarity.se).
+A project by [Fiive](https://www.fiive.se).
